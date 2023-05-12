@@ -4,6 +4,8 @@ import numpy as np
 import matplotlib as plt
 import datetime
 
+mpl.use('TkAgg')
+
 #raw data
 df_flights = pd.read_csv('./dataset/flights-abr.csv')
 df_aiports = pd.read_csv('./dataset/airports1.csv')
